@@ -3,11 +3,13 @@ from django.shortcuts import render
 # Create your views here.
 from ..models.author import Author
 from ..models.book import Book
+from ..models.book_instance import BookInstance
 
 def index(request):
     
     book = Book.objects.all()
     author = Author.objects.all()
+    book_instance = BookInstance.objects.all()
     
     return render(
         request,
@@ -15,6 +17,7 @@ def index(request):
         context=
         {
             "book":book,
-            "author":author
+            "author":author,
+            "book_instance":book_instance
         }
     )  

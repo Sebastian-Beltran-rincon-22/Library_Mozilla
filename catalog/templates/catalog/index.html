@@ -1,0 +1,15 @@
+{% block content %}
+<h1> Esta es la libreria de Mozilla </h1>
+{% if book%}
+    {%for book in book%}
+        <p>{{book.title}}</p>
+    {% endfor %}
+{% endif %}
+<h2> Autores </h2>
+{%if author%}
+    {%for author in author%}
+        <p>{{author.name}}</p>
+    {%endfor%}
+{%endif%}
+{% endblock content %}
+

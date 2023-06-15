@@ -11,5 +11,11 @@
         <p>{{author.name}}</p>
     {%endfor%}
 {%endif%}
+<h3> estado del libro </h3>
+{% if book_instance %}
+    {% for book_instance in book_instance %}
+        <p> {{book_instance.status}}</p>
+    {% endfor %}
+{% endif %}
 {% endblock content %}
 

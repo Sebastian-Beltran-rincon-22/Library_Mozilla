@@ -7,10 +7,10 @@
 Este proyecto es un ejemplo de una API RESTful desarrollada con FastAPI que permite realizar operaciones CRUD (Crear, Leer, visualizar) en un modelo de productos 
 
 ## Funcionalidades
-- Obtener todos los productos
-- Obtener una producto por su ID
-- Crear una nuevo provedor
-- Actualizar un producto existente
+- Obtener lista de libros
+- Obtener ID de libros
+- Crear libros
+- Obtener lista de autores
 
 ## Tecnologías utilizadas
 - Python

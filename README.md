@@ -1,5 +1,6 @@
 # Library_Mozilla
 
+<img src="img/Firefly.png" alt="Logo Library_Mozilla">
 
 ## Descripción
 
